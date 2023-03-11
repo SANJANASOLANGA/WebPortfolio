@@ -34,7 +34,7 @@ function ResumeNew() {
             src={resume}
             alt="home pic"
             className="img-fluid"
-            style={{ maxHeight: "450px" }}
+            style={{ maxHeight: "850px", marginTop: 70 }}
           />
         </Row>
       </Container>

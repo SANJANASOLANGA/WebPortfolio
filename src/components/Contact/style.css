@@ -14,19 +14,21 @@
     font-family: "Raleway", serif !important;
 }
 
-.btn_ac_btn{
+.btn_ac_btn {
     border: #FFFFFF;
     color: #FFFFFF;
     background-color: var(--bg-color);
     border-radius: 0 !important;
     border: 1px solid #FFFFFF;
     font-family: "Raleway", serif !important;
+    width: 12%;
 }
 
-.contact_details{
+.contact_details {
     font-family: "Raleway", serif !important;
     color: #FFFFFF;
 }
+
 a {
     color: #FFFFFF;
     text-decoration: none;

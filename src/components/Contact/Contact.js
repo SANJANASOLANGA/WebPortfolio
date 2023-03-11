@@ -7,6 +7,7 @@ import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../content_option";
 import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Particle from "../Particle";
 
 export const Contact = () => {
   const [formData, setFormdata] = useState({
@@ -69,17 +70,12 @@ export const Contact = () => {
   return (
     <HelmetProvider>
       <Container>
+        {/* <Particle /> */}
         <Helmet>
           <meta charSet="utf-8" />
           <title>{meta.title} | Contact</title>
           <meta name="description" content={meta.description} />
         </Helmet>
-        <Row className="mb-5 mt-3 pt-md-3">
-          <Col lg="8">
-            <h1 className="display-4 mb-4">Contact Me</h1>
-            <hr className="t_border my-4 ml-0 text-left" />
-          </Col>
-        </Row>
         <Row className="sec_sp">
           <Col lg="12">
             <Alert
@@ -154,7 +150,7 @@ export const Contact = () => {
               <br />
               <Row>
                 <Col lg="12" className="form-group">
-                  <button className="btn ac_btn" type="submit">
+                  <button className="btn_ac_btn" type="submit">
                     {formData.loading ? "Sending..." : "Send"}
                   </button>
                 </Col>
@@ -163,7 +159,7 @@ export const Contact = () => {
           </Col>
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
+          <Col md={12} className="home-about-social" style={{marginBottom: 35, marginTop:35}}>
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me

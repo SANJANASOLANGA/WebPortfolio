@@ -70,7 +70,6 @@ export const Contact = () => {
   return (
     <HelmetProvider>
       <Container>
-        {/* <Particle /> */}
         <Helmet>
           <meta charSet="utf-8" />
           <title>{meta.title} | Contact</title>
@@ -216,6 +215,7 @@ export const Contact = () => {
         </Row>
       </Container>
       <div className={formData.loading ? "loading-bar" : "d-none"}></div>
+      <Particle />
     </HelmetProvider>
   );
 };

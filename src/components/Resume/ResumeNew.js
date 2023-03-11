@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
+import homeLogo from "../../Assets/home-main.svg";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Sewmini_Sanjana.pdf";
@@ -34,7 +35,14 @@ function ResumeNew() {
             &nbsp;Download CV
           </Button>
         </Row>
-
+        <Row>
+          <img
+            src={homeLogo}
+            alt="home pic"
+            className="img-fluid"
+            style={{ maxHeight: "450px" }}
+          />
+        </Row>
         <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />

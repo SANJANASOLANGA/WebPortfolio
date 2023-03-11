@@ -24,7 +24,7 @@ function ResumeNew() {
       </Helmet>
       <div>
         <Container fluid className="resume-section">
-          <Particle />
+          {/* <Particle /> */}
           <Row style={{ justifyContent: "center", position: "relative" }}>
             <Button
               variant="primary"
@@ -46,6 +46,7 @@ function ResumeNew() {
           </Row>
         </Container>
       </div>
+      <Particle />
     </HelmetProvider>
   );
 }

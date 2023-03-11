@@ -30,7 +30,6 @@ function ResumeNew() {
         </Row>
         <Row>
           <img
-          // Sewmini_Sanjana_Resume.svg
             src={resume}
             alt="home pic"
             className="img-fluid"

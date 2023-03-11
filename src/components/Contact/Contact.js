@@ -96,6 +96,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "./content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "./content_option";
+import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 export const Contact = () => {
   const [formData, setFormdata] = useState({
@@ -249,6 +251,56 @@ export const Contact = () => {
                 </Col>
               </Row>
             </form>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={12} className="home-about-social">
+            <h1>FIND ME ON</h1>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/SANJANASOLANGA"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://twitter.com/sanjana_solanga"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineTwitter />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/sanjana-solanga-arachchi/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/sanjana_solangaarachchi/?igshid=ZDdkNTZiNTM%3D"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillInstagram />
+                </a>
+              </li>
+            </ul>
           </Col>
         </Row>
       </Container>

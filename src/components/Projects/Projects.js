@@ -4,12 +4,12 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../content_option";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import personal from "../../Assets/Projects/personal.png";
+import nursery from "../../Assets/Projects/nursery.png";
+import aragi from "../../Assets/Projects/aragi.png";
+import hospital from "../../Assets/Projects/hospital.png";
+import atm from "../../Assets/Projects/atm.png";
+import profile from "../../Assets/Projects/profile.png";
 
 function Projects() {
   return (
@@ -31,7 +31,7 @@ function Projects() {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={chatify}
+                imgPath={profile}
                 isBlog={false}
                 title="Profile for Faculty"
                 description="The profile app for faculty is designed to help faculty share news and maintain student profiles. It is built with React Native and Firebase, and has features which allow users to maintain their profiles in real time, read news, and faculty contact details. The app also provides guidelines for using the app, and for giving feedback."
@@ -41,7 +41,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={bitsOfCode}
+                imgPath={atm}
                 isBlog={false}
                 title="Automated Teller Machine"
                 description="Automated teller machines are a staple of modern banking. This project is a simple Automated teller machine built in Java using object-oriented programming. It has features which allow users for registration, login, logout, real-time cash deposit, withdrawal, balance inquiry, transaction history, as well as fund transfers."
@@ -51,7 +51,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={editor}
+                imgPath={hospital}
                 isBlog={false}
                 title="Hospital Management System"
                 description="The Hospital Management System is a software application written in Python that helps maintain and run hospital operations on a day-to-day basis. It has features which allow users to register, login, logout, contact the hospital, request medical services, and maintain patients and employers in the admin sector, as well as giving feedback."
@@ -61,7 +61,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={leaf}
+                imgPath={aragi}
                 isBlog={false}
                 title="Aragi Hospital"
                 description="Aragi Hospital's website is full of useful content for anyone looking for a hospital. This website is built with HTML and CSS. They provide detailed information about their services, facilities, medical packages, and even career opportunities. You can also easily find their contact information and details about their international patients program."
@@ -71,7 +71,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={suicide}
+                imgPath={personal}
                 isBlog={false}
                 title="Sanjana' s Personal Website"
                 description="Welcome to my personal website! This website exists as a means for you to find out more about me, see some of my previous projects, and get in touch if you'd like to collaborate on something. You can also find my resume here and links to my social media profiles. It's built with React and emailjs. I hope you enjoy exploring the site!"
@@ -81,7 +81,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={emotion}
+                imgPath={nursery}
                 isBlog={false}
                 title="EduKids"
                 description="EduKids is a mobile app that gives nursery students the ability to learn and improve their knowledge simply by using the app. The app is built with React Native and Firebase. It has features which allows users to login, logout, and learn materials for alphabets, numbers, phrases, shapes, colors, as well as activities to improve knowledge."

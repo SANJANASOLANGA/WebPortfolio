@@ -10,10 +10,10 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Sewmini Sanjana </span>
             from <span className="purple"> Gampaha, Sri Lanka.</span>
-            <br />I am an undergraduate in the Department of ICT, University of Sri Jayewardenepura.
+            <br />I am an undergraduate from the Department of ICT, University of Sri Jayewardenepura.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, some other activities that I love to do are!
           </p>
           <ul>
             <li className="about-activity">

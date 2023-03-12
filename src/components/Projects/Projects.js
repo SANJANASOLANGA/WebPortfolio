@@ -34,7 +34,7 @@ function Projects() {
                 imgPath={chatify}
                 isBlog={false}
                 title="Profile for Faculty"
-                description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+                description="The profile app for faculty is designed to help faculty share news and maintain student profiles. It is built with React Native and Firebase, and has features which allow users to maintain their profiles in real time, read news, and faculty contact details. The app also provides guidelines for using the app, and for giving feedback."
                 ghLink="https://github.com/SANJANASOLANGA/ProfileForFaculty"
                 // demoLink="https://chatify-49.web.app/"
               />
@@ -45,7 +45,7 @@ function Projects() {
                 imgPath={bitsOfCode}
                 isBlog={false}
                 title="Automated Teller Machine"
-                description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+                description="Automated teller machines are a staple of modern banking. This project is a simple Automated teller machine built in Java using object-oriented programming. It has features which allow users for registration, login, logout, real-time cash deposit, withdrawal, balance inquiry, transaction history, as well as fund transfers."
                 ghLink="https://github.com/SANJANASOLANGA/ATM_Project"
                 // demoLink="https://blogs.soumya-jit.tech/"
               />
@@ -56,7 +56,7 @@ function Projects() {
                 imgPath={editor}
                 isBlog={false}
                 title="Hospital Management System"
-                description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+                description="The Hospital Management System is a software application written in Python that helps maintain and run hospital operations on a day-to-day basis. It has features which allow users to register, login, logout, contact the hospital, request medical services, and maintain patients and employers in the admin sector, as well as giving feedback."
                 ghLink="https://github.com/SANJANASOLANGA/HospitalMgt"
                 // demoLink="https://editor.soumya-jit.tech/"              
               />
@@ -66,8 +66,8 @@ function Projects() {
               <ProjectCard
                 imgPath={leaf}
                 isBlog={false}
-                title="Hospital Management System"
-                description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+                title="Aragi Hospital"
+                description="Aragi Hospital's website is full of useful content for anyone looking for a hospital. This website is built with HTML and CSS. They provide detailed information about their services, facilities, medical packages, and even career opportunities. You can also easily find their contact information and details about their international patients program."
                 ghLink="https://github.com/SANJANASOLANGA/HospitalMgtSystem"
                 // demoLink="https://plant49-ai.herokuapp.com/"
               />
@@ -78,8 +78,8 @@ function Projects() {
                 imgPath={suicide}
                 isBlog={false}
                 title="Sanjana' s Personal Website"
-                description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-                ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+                description="Welcome to my personal website! This website exists as a means for you to find out more about me, see some of my previous projects, and get in touch if you'd like to collaborate on something. You can also find my resume here and links to my social media profiles. It's built with React and emailjs. I hope you enjoy exploring the site!"
+                ghLink="https://github.com/SANJANASOLANGA/WebPortfolio"
                 // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
               />
             </Col>
@@ -89,8 +89,7 @@ function Projects() {
                 imgPath={emotion}
                 isBlog={false}
                 title="EduKids"
-                description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-                Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+                description="EduKids is a mobile app that gives nursery students the ability to learn and improve their knowledge simply by using the app. The app is built with React Native and Firebase. It has features which allows users to login, logout, and learn materials for alphabets, numbers, phrases, shapes, colors, as well as activities to improve knowledge."
                 ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
                 // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
               />

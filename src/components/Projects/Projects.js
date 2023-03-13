@@ -1,95 +1,97 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Helmet, HelmetProvider } from "react-helmet-async";
+import { meta } from "../content_option";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import personal from "../../Assets/Projects/personal.png";
+import nursery from "../../Assets/Projects/nursery.png";
+import aragi from "../../Assets/Projects/aragi.png";
+import hospital from "../../Assets/Projects/hospital.png";
+import atm from "../../Assets/Projects/atm.png";
+import profile from "../../Assets/Projects/profile.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
-      <Particle />
-      <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
-        </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Profile for Faculty"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/SANJANASOLANGA/ProfileForFaculty"
-              // demoLink="https://chatify-49.web.app/"
-            />
-          </Col>
+    <HelmetProvider>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{meta.title} | Projects</title>
+        <meta name="description" content={meta.description} />
+      </Helmet>
+      <Container fluid className="project-section">
+        <Particle />
+        <Container>
+          <h1 className="project-heading">
+            My Recent <strong className="purple">Works </strong>
+          </h1>
+          <p style={{ color: "white" }}>
+            Here are a few projects I've worked recently.
+          </p>
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={profile}
+                isBlog={false}
+                title="Profile for Faculty"
+                description="The profile app for faculty is designed to help faculty share news and maintain student profiles. It is built with React Native and Firebase, and has features which allow users to maintain their profiles in real time, read news, and faculty contact details. The app also provides guidelines for using the app, and for giving feedback."
+                ghLink="https://github.com/SANJANASOLANGA/ProfileForFaculty"
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Automated Teller Machine"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/SANJANASOLANGA/ATM_Project"
-              // demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={atm}
+                isBlog={false}
+                title="Automated Teller Machine"
+                description="Automated teller machines are a staple of modern banking. This project is a simple Automated teller machine built in Java using object-oriented programming. It has features which allow users for registration, login, logout, real-time cash deposit, withdrawal, balance inquiry, transaction history, as well as fund transfers."
+                ghLink="https://github.com/SANJANASOLANGA/ATM_Project"
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Hospital Management System"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/SANJANASOLANGA/HospitalMgt"
-              // demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={hospital}
+                isBlog={false}
+                title="Hospital Management System"
+                description="The Hospital Management System is a software application written in Python that helps maintain and run hospital operations on a day-to-day basis. It has features which allow users to register, login, logout, contact the hospital, request medical services, and maintain patients and employers in the admin sector, as well as giving feedback."
+                ghLink="https://github.com/SANJANASOLANGA/HospitalMgt"             
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Hospital Management System"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/SANJANASOLANGA/HospitalMgtSystem"
-              // demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={aragi}
+                isBlog={false}
+                title="Aragi Hospital"
+                description="Aragi Hospital's website is full of useful content for anyone looking for a hospital. This website is built with HTML and CSS. They provide detailed information about their services, facilities, medical packages, and even career opportunities. You can also easily find their contact information and details about their international patients program."
+                ghLink="https://github.com/SANJANASOLANGA/HospitalMgtSystem"
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={personal}
+                isBlog={false}
+                title="Sanjana' s Personal Website"
+                description="Welcome to my personal website! This website exists as a means for you to find out more about me, see some of my previous projects, and get in touch if you'd like to collaborate on something. You can also find my resume here and links to my social media profiles. It's built with React and emailjs. I hope you enjoy exploring the site!"
+                ghLink="https://github.com/SANJANASOLANGA/WebPortfolio"
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
-        </Row>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={nursery}
+                isBlog={false}
+                title="EduKids"
+                description="EduKids is a mobile app that gives nursery students the ability to learn and improve their knowledge simply by using the app. The app is built with React Native and Firebase. It has features which allows users to login, logout, and learn materials for alphabets, numbers, phrases, shapes, colors, as well as activities to improve knowledge."
+                ghLink="https://github.com/SANJANASOLANGA/EduKids" 
+              />
+            </Col>
+          </Row>
+        </Container>
       </Container>
-    </Container>
+    </HelmetProvider>
   );
 }
 

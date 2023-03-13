@@ -85,7 +85,7 @@ function Projects() {
                 isBlog={false}
                 title="EduKids"
                 description="EduKids is a mobile app that gives nursery students the ability to learn and improve their knowledge simply by using the app. The app is built with React Native and Firebase. It has features which allows users to login, logout, and learn materials for alphabets, numbers, phrases, shapes, colors, as well as activities to improve knowledge."
-                ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection" 
+                ghLink="https://github.com/SANJANASOLANGA/EduKids" 
               />
             </Col>
           </Row>

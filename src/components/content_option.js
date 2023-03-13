@@ -1,6 +1,5 @@
 const meta = {
-    title: "Sewmini Sanjana",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Sewmini Sanjana"
 };
 
 const contactConfig = {

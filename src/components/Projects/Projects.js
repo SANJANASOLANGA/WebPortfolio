@@ -29,6 +29,15 @@ function Projects() {
             Here are a few projects I've worked recently.
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={nursery}
+                isBlog={false}
+                title="EduKids"
+                description="EduKids is a mobile app that gives nursery students the ability to learn and improve their knowledge simply by using the app. The app is built with React Native and Firebase. It has features which allows users to login, logout, and learn materials for alphabets, numbers, phrases, shapes, colors, as well as activities to improve knowledge."
+                ghLink="https://github.com/SANJANASOLANGA/NurseryApp" 
+              />
+            </Col>
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={profile}
@@ -79,15 +88,7 @@ function Projects() {
               />
             </Col>
 
-            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={nursery}
-                isBlog={false}
-                title="EduKids"
-                description="EduKids is a mobile app that gives nursery students the ability to learn and improve their knowledge simply by using the app. The app is built with React Native and Firebase. It has features which allows users to login, logout, and learn materials for alphabets, numbers, phrases, shapes, colors, as well as activities to improve knowledge."
-                ghLink="https://github.com/SANJANASOLANGA/EduKids" 
-              />
-            </Col>
+            
           </Row>
         </Container>
       </Container>

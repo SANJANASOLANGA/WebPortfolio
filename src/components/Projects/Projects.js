@@ -50,6 +50,16 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
+                imgPath={personal}
+                isBlog={false}
+                title="Food Recipe Website"
+                description="The food recipe website is developed using the MERN (MongoDB, Express.js, React, Node.js) stack. The website allows users to explore a variety of recipes, contribute their own recipes, download recipes, and engage with a user-friendly interface. It incorporates user authentication, real-time updates, and seamless data management."
+                ghLink="https://github.com/SANJANASOLANGA/ReactFoodRecipe.git"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
                 imgPath={atm}
                 isBlog={false}
                 title="Automated Teller Machine"

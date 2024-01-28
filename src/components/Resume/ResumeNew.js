@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
-import resume from "../../Assets/Sewmini_Sanjana_Resume.svg";
+import resume1 from "../../Assets/Sewmini_Sanjana_Resume_1.svg";
+import resume2 from "../../Assets/Sewmini_Sanjana_Resume_2.svg";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Sewmini_Sanjana_Web.pdf";
@@ -38,7 +39,13 @@ function ResumeNew() {
           </Row>
           <Row>
             <img
-              src={resume}
+              src={resume1}
+              alt="home pic"
+              className="img-fluid"
+              style={{ maxHeight: "850px", marginTop: 70 }}
+            />
+            <img
+              src={resume2}
               alt="home pic"
               className="img-fluid"
               style={{ maxHeight: "850px", marginTop: 70 }}

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
-import resume1 from "../../Assets/Sewmini_Sanjana_Resume_1.svg";
-import resume2 from "../../Assets/Sewmini_Sanjana_Resume_2.svg";
+import resume1 from "../../Assets/Resume1.svg";
+import resume2 from "../../Assets/Resume2.svg";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Sewmini_Sanjana_Web.pdf";
+import pdf from "../../Assets/../Assets/Sewmini_Sanjana.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../content_option";

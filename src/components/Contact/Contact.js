@@ -181,7 +181,7 @@ export const Contact = () => {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/sanjana_solanga"
                   target="_blank"
@@ -190,7 +190,7 @@ export const Contact = () => {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/sanjana-solanga-arachchi/"

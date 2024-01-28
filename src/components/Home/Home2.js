@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { BsFacebook } from "react-icons/bs";
 
 function Home2() {
   return (
@@ -32,7 +33,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  Artificial Intelligence, Deep Learning and Image Processing.
                 </b>
               </i>
               <br />
@@ -74,7 +75,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/sanjana_solanga"
                   target="_blank"
@@ -83,7 +84,7 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/sanjana-solanga-arachchi/"
@@ -96,7 +97,17 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/sanjana_solangaarachchi/?igshid=ZDdkNTZiNTM%3D"
+                  href="https://www.facebook.com/sanjana.solangaarachchi.33"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <BsFacebook />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/__sanjana00__/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

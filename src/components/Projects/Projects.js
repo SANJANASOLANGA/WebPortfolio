@@ -29,13 +29,22 @@ function Projects() {
             Here are a few projects I've worked recently.
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={nursery}
+                isBlog={false}
+                title="LeoWave"
+                description="LeoWave is the official mobile app developed for the Leo Club of District 306 C2, University of Sri Jayewardenepura, utilizing React Native and Firebase technologies. LeoWave features a board of officers directory for easy access to club leadership, provides information about Lions Club International, showcases ongoing and award-winning projects, and includes a contact us section for seamless communication."
+                ghLink="https://github.com/SANJANASOLANGA/NurseryApp"
+              />
+            </Col>
+            <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={nursery}
                 isBlog={false}
                 title="EduKids"
                 description="EduKids is a mobile app that gives nursery students the ability to learn and improve their knowledge simply by using the app. The app is built with React Native and Firebase. It has features which allows users to login, logout, and learn materials for alphabets, numbers, phrases, shapes, colors, as well as activities to improve knowledge."
-                ghLink="https://github.com/SANJANASOLANGA/NurseryApp" 
+                ghLink="https://github.com/SANJANASOLANGA/NurseryApp"
               />
             </Col>
             <Col md={4} className="project-card">
@@ -74,7 +83,7 @@ function Projects() {
                 isBlog={false}
                 title="Hospital Management System"
                 description="The Hospital Management System is a software application written in Python that helps maintain and run hospital operations on a day-to-day basis. It has features which allow users to register, login, logout, contact the hospital, request medical services, and maintain patients and employers in the admin sector, as well as giving feedback."
-                ghLink="https://github.com/SANJANASOLANGA/HospitalMgt"             
+                ghLink="https://github.com/SANJANASOLANGA/HospitalMgt"
               />
             </Col>
 
@@ -97,8 +106,6 @@ function Projects() {
                 ghLink="https://github.com/SANJANASOLANGA/WebPortfolio"
               />
             </Col>
-
-            
           </Row>
         </Container>
       </Container>

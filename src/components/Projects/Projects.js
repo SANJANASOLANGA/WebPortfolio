@@ -10,6 +10,8 @@ import aragi from "../../Assets/Projects/aragi.png";
 import hospital from "../../Assets/Projects/hospital.png";
 import atm from "../../Assets/Projects/atm.png";
 import profile from "../../Assets/Projects/profile.png";
+import leo from "../../Assets/Projects/leo.png";
+import iot from "../../Assets/Projects/iot.jpg";
 
 function Projects() {
   return (
@@ -31,11 +33,11 @@ function Projects() {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={nursery}
+                imgPath={leo}
                 isBlog={false}
                 title="LeoWave"
                 description="LeoWave is the official mobile app developed for the Leo Club of District 306 C2, University of Sri Jayewardenepura, utilizing React Native and Firebase technologies. LeoWave features a board of officers directory for easy access to club leadership, provides information about Lions Club International, showcases ongoing and award-winning projects, and includes a contact us section for seamless communication."
-                ghLink="https://github.com/SANJANASOLANGA/NurseryApp"
+                ghLink="https://github.com/SANJANASOLANGA/"
               />
             </Col>
             <Col md={4} className="project-card">
@@ -96,7 +98,6 @@ function Projects() {
                 ghLink="https://github.com/SANJANASOLANGA/HospitalMgtSystem"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={personal}
@@ -104,6 +105,15 @@ function Projects() {
                 title="Sanjana' s Personal Website"
                 description="Welcome to my personal website! This website exists as a means for you to find out more about me, see some of my previous projects, and get in touch if you'd like to collaborate on something. You can also find my resume here and links to my social media profiles. It's built with React and emailjs. I hope you enjoy exploring the site!"
                 ghLink="https://github.com/SANJANASOLANGA/WebPortfolio"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={iot}
+                isBlog={false}
+                title="IoT-based Air Quality Monitoring System"
+                description="The IoT-based Air Quality Monitoring System utilizes NodeMCU ESP32, MQ-135 sensor, DHT11 sensor, and an LCD display to continuously monitor air quality parameters like temperature, humidity, and gas values (fresh air). It displays real-time data on the LCD screen for easy observation and updates the Blynk mobile app every minute, enabling remote monitoring of air quality. This system, developed using Blynk and Arduino IDE."
+                ghLink="https://github.com/SANJANASOLANGA/"
               />
             </Col>
           </Row>

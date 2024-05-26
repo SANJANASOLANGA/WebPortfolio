@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Page Not Found</title>
+  </head>
+  <body>
+    <script>
+      // Ensure the correct 404 status code is returned.
+      fetch('/index.html')
+        .then(response => {
+          if (response.status === 404) {
+            window.location.href = '/'; // Redirect to the homepage
+          }
+        });
+    </script>
+  </body>
+</html>

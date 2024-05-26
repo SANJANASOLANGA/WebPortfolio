@@ -12,6 +12,7 @@ import atm from "../../Assets/Projects/atm.png";
 import profile from "../../Assets/Projects/profile.png";
 import leo from "../../Assets/Projects/leo.png";
 import iot from "../../Assets/Projects/iot.jpg";
+import bookstore from "../../Assets/Projects/bookstore.jpg";
 
 function Projects() {
   return (
@@ -66,6 +67,16 @@ function Projects() {
                 title="Food Recipe Website"
                 description="The food recipe website is developed using the MERN (MongoDB, Express.js, React, Node.js) stack. The website allows users to explore a variety of recipes, contribute their own recipes, download recipes, and engage with a user-friendly interface. It incorporates user authentication, real-time updates, and seamless data management."
                 ghLink="https://github.com/SANJANASOLANGA/ReactFoodRecipe.git"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={bookstore}
+                isBlog={false}
+                title="Bookstore System"
+                description="The Bookstore System is a software application written in Java using OOP concepts. Its features allow users to browse and add books (eBooks and physical books) to a shopping cart, calculate total costs including shipping, and place or cancel orders. The system also maintains customer details and provides an encapsulated structure for managing book details and orders."
+                ghLink="https://github.com/SANJANASOLANGA/BookStoreSystem"
               />
             </Col>
 

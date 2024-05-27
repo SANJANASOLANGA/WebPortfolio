@@ -13,6 +13,7 @@ import profile from "../../Assets/Projects/profile.png";
 import leo from "../../Assets/Projects/leo.png";
 import iot from "../../Assets/Projects/iot.jpg";
 import bookstore from "../../Assets/Projects/bookstore.jpg";
+import blog from "../../Assets/Projects/blog.webp";
 
 function Projects() {
   return (
@@ -67,6 +68,16 @@ function Projects() {
                 title="Food Recipe Website"
                 description="The food recipe website is developed using the MERN (MongoDB, Express.js, React, Node.js) stack. The website allows users to explore a variety of recipes, contribute their own recipes, download recipes, and engage with a user-friendly interface. It incorporates user authentication, real-time updates, and seamless data management."
                 ghLink="https://github.com/SANJANASOLANGA/ReactFoodRecipe.git"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={blog}
+                isBlog={false}
+                title="Blog App"
+                description="The Blog App is a full-stack web application developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to register, log in, and create, read, update, and delete blog posts. The intuitive user interface ensures a smooth experience for writing and managing posts."
+                ghLink="https://github.com/SANJANASOLANGA/BlogApp.git"
               />
             </Col>
 

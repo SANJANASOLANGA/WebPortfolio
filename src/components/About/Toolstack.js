@@ -5,7 +5,7 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiAndroidstudio,
-  SiRstudio,
+  SiFirebase,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -21,7 +21,7 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRstudio />
+        <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAndroidstudio />

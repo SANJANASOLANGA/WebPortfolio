@@ -14,6 +14,8 @@ import leo from "../../Assets/Projects/leo.png";
 import iot from "../../Assets/Projects/iot.jpg";
 import bookstore from "../../Assets/Projects/bookstore.jpg";
 import blog from "../../Assets/Projects/blog.webp";
+import ProjectCards2 from "./ProjectCard2";
+import DownloadProjectCard from "./DownloadProjectCard";
 
 function Projects() {
   return (
@@ -34,12 +36,12 @@ function Projects() {
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
-              <ProjectCard
+              <DownloadProjectCard
                 imgPath={leo}
                 isBlog={false}
                 title="LeoWave"
                 description="LeoWave is the official mobile app developed for the Leo Club of District 306 C2, University of Sri Jayewardenepura, utilizing React Native, Javascript and Firebase technologies. LeoWave features a board of officers directory for easy access to club leadership, provides information about Lions Club International, showcases ongoing and award-winning projects, and includes a contact us section for seamless communication."
-                ghLink="https://github.com/SANJANASOLANGA/"
+                ghLink="https://japuraleo.github.io/org.lk/contact.html"
               />
             </Col>
             <Col md={4} className="project-card">
@@ -130,12 +132,12 @@ function Projects() {
               />
             </Col>
             <Col md={4} className="project-card">
-              <ProjectCard
+              <ProjectCards2
                 imgPath={iot}
                 isBlog={false}
                 title="IoT-based Air Quality Monitoring System"
                 description="The IoT-based Air Quality Monitoring System utilizes NodeMCU ESP32, MQ-135 sensor, DHT11 sensor, and an LCD display to continuously monitor air quality parameters like temperature, humidity, and gas values (fresh air). It displays real-time data on the LCD screen for easy observation and updates the Blynk mobile app every minute, enabling remote monitoring of air quality. This system, developed using Blynk and Arduino IDE."
-                ghLink="https://github.com/SANJANASOLANGA/"
+                ghLink="https://www.linkedin.com/in/sanjana-solanga-arachchi/details/projects/"
               />
             </Col>
           </Row>
